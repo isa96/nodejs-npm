@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo 'Before Appliction Start'",
+    "start": "node index.js",
+    "poststart": "echo 'After Application Start'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "npm"
+  ],
+  "author": "Izzan Silmi Aziz",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "nodejs-isalib": "^1.0.0"
+  },
+  "devDependencies": {
+    "moment": "^2.29.3"
+  }
+}
